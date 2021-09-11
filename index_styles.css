@@ -1,0 +1,32 @@
+#ScoreSheet{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    vertical-align: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#ScoreSheet.text{
+    position: absolute;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#background{
+    background-image:url("soccer graphic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    opacity: .4;
+    z-index: 1;
+}
